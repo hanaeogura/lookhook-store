@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="border-t border-[var(--color-border)] bg-[var(--color-surface)]">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-12 md:grid-cols-3">
         <div className="space-y-3">
-          <p className="text-sm font-medium">Crochet Brand</p>
+          <p className="text-sm font-medium">lookhook</p>
           <p className="text-sm leading-7 text-[var(--color-muted)]">
             1点もの/受注制作を中心に、クロシェ作品を制作しています。
           </p>
@@ -46,7 +46,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-[var(--color-border)]">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-6 text-xs text-[var(--color-muted)]">
-          <p>© {new Date().getFullYear()} Crochet Brand</p>
+          <p>© {new Date().getFullYear()} lookhook</p>
           <p>Built on Vercel</p>
         </div>
       </div>

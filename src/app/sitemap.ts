@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
 
 import { items } from "@/lib/items";
-import { siteConfig } from "@/lib/siteConfig";
+import { getPublicSiteUrl } from "@/lib/publicSiteUrl";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const base = siteConfig.siteUrl;
+  const base = getPublicSiteUrl();
 
   const staticRoutes = [
     "/",

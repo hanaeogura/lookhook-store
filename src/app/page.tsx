@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
         </Container>
-        <div className="h-[34vh] w-full bg-[radial-gradient(circle_at_30%_20%,color-mix(in_oklab,var(--color-accent),transparent_80%),transparent_52%),linear-gradient(135deg,color-mix(in_oklab,var(--color-text),transparent_92%),transparent_30%)]" />
+        <div className="h-[34vh] w-full bg-[radial-gradient(circle_at_30%_20%,color-mix(in_srgb,var(--color-text),transparent_80%),transparent_52%),linear-gradient(135deg,color-mix(in_srgb,var(--color-text),transparent_92%),transparent_30%)]" />
       </section>
 
       <Container>
@@ -68,7 +68,7 @@ export default function Home() {
                 href={`/items/${item.slug}`}
                 className="group rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] p-6 shadow-[var(--shadow-soft)] transition-transform hover:-translate-y-0.5"
               >
-                <div className="aspect-[4/3] w-full overflow-hidden rounded-[calc(var(--radius)-6px)] border border-[var(--color-border)] bg-[radial-gradient(circle_at_30%_20%,color-mix(in_oklab,var(--color-accent),transparent_85%),transparent_55%)]" />
+                <div className="aspect-[4/3] w-full overflow-hidden rounded-[calc(var(--radius)-6px)] border border-[var(--color-border)] bg-[radial-gradient(circle_at_30%_20%,color-mix(in_srgb,var(--color-text),transparent_88%),transparent_55%)]" />
                 <p className="mt-5 text-xs tracking-[0.22em] text-[var(--color-muted)]">
                   {item.type === "oneOfAKind" ? "ONE_OF_A_KIND" : "MADE_TO_ORDER"}
                 </p>

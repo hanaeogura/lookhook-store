@@ -33,7 +33,7 @@ export default function ItemDetailPage({
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
             <div className="overflow-hidden rounded-[var(--radius)] border border-[var(--color-border)] bg-[var(--color-surface)] shadow-[var(--shadow-soft)]">
-              <div className="aspect-[4/3] w-full bg-[radial-gradient(circle_at_30%_20%,color-mix(in_oklab,var(--color-accent),transparent_82%),transparent_52%),linear-gradient(135deg,color-mix(in_oklab,var(--color-text),transparent_92%),transparent_30%)]" />
+              <div className="aspect-[4/3] w-full bg-[radial-gradient(circle_at_30%_20%,color-mix(in_srgb,var(--color-text),transparent_82%),transparent_52%),linear-gradient(135deg,color-mix(in_srgb,var(--color-text),transparent_92%),transparent_30%)]" />
             </div>
             <div className="mt-8 space-y-3 text-sm leading-7 text-[var(--color-muted)]">
               <p>

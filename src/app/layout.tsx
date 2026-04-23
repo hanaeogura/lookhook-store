@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { getPublicSiteUrl } from "@/lib/publicSiteUrl";
 import { siteConfig } from "@/lib/siteConfig";
 
 const geistSans = Geist({
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  metadataBase: new URL(siteConfig.siteUrl),
+  metadataBase: new URL(getPublicSiteUrl()),
   openGraph: {
     type: "website",
     title: siteConfig.name,

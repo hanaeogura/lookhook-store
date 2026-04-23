@@ -18,9 +18,6 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <Link href="/" className="group flex items-center gap-3">
           <Wordmark />
-          <span className="text-xs tracking-[0.2em] text-[var(--color-muted)]">
-            CROCHET
-          </span>
         </Link>
         <nav className="hidden items-center gap-1 text-sm md:flex">
           {nav.map((item) => (
